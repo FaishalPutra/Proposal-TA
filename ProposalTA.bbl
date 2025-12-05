@@ -1,0 +1,1026 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{adomaviciusContextAwareRecommenderSystems2011}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=70fa40a00f026a60fb97363242ea797d}{%
+           family={Adomavicius},
+           familyi={A\bibinitperiod},
+           given={Gediminas},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ea9e44de0d35171d632227a1ddf838a}{%
+           family={Tuzhilin},
+           familyi={T\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{605db2b95bce0ae2b9db7fa6b0c04a07}
+      \strng{fullhash}{605db2b95bce0ae2b9db7fa6b0c04a07}
+      \strng{fullhashraw}{605db2b95bce0ae2b9db7fa6b0c04a07}
+      \strng{bibnamehash}{605db2b95bce0ae2b9db7fa6b0c04a07}
+      \strng{authorbibnamehash}{605db2b95bce0ae2b9db7fa6b0c04a07}
+      \strng{authornamehash}{605db2b95bce0ae2b9db7fa6b0c04a07}
+      \strng{authorfullhash}{605db2b95bce0ae2b9db7fa6b0c04a07}
+      \strng{authorfullhashraw}{605db2b95bce0ae2b9db7fa6b0c04a07}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{The importance of contextual information has been recognized by researchers and practitioners in many disciplines, including e-commerce personalization, information retrieval, ubiquitous and mobile computing, data mining, marketing, and management. While a substantial amount of research has already been performed in the area of recommender systems, most existing approaches focus on recommending the most relevant items to users without taking into account any additional contextual information, such as time, location, or the company of other people (e.g., for watching movies or dining out). In this chapter we argue that relevant contextual information does matter in recommender systems and that it is important to take this information into account when providing recommendations. We discuss the general notion of context and how it can be modeled in recommender systems. Furthermore, we introduce three different algorithmic paradigms – contextual prefiltering, post-filtering, and modeling – for incorporating contextual information into the recommendation process, discuss the possibilities of combining several contextaware recommendation techniques into a single unifying approach, and provide a case study of one such combined approach. Finally, we present additional capabilities for context-aware recommenders and discuss important and promising directions for future research.}
+      \field{langid}{english}
+      \field{title}{Context-{{Aware Recommender Systems}}}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\S7JHPCKY\Adomavicius and Tuzhilin - Context-Aware Recommender Systems.pdf
+      \endverb
+    \endentry
+    \entry{burkeHybridRecommenderSystems2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=927ab4206ced595b50d2ac5fb4535b88}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{927ab4206ced595b50d2ac5fb4535b88}
+      \strng{fullhash}{927ab4206ced595b50d2ac5fb4535b88}
+      \strng{fullhashraw}{927ab4206ced595b50d2ac5fb4535b88}
+      \strng{bibnamehash}{927ab4206ced595b50d2ac5fb4535b88}
+      \strng{authorbibnamehash}{927ab4206ced595b50d2ac5fb4535b88}
+      \strng{authornamehash}{927ab4206ced595b50d2ac5fb4535b88}
+      \strng{authorfullhash}{927ab4206ced595b50d2ac5fb4535b88}
+      \strng{authorfullhashraw}{927ab4206ced595b50d2ac5fb4535b88}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Recommender systems represent user preferences for the purpose of suggesting items to purchase or examine. They have become fundamental applications in electronic commerce and information access, providing suggestions that effectively prune large information spaces so that users are directed toward those items that best meet their needs and preferences. A variety of techniques have been proposed for performing recommendation, including content-based, collaborative, knowledge-based and other techniques. To improve performance, these methods have sometimes been combined in hybrid recommenders. This paper surveys the landscape of actual and possible hybrid recommenders, and introduces a novel hybrid, EntreeC, a system that combines knowledge-based recommendation and collaborative filtering to recommend restaurants. Further, we show that semantic ratings obtained from the knowledge-based part of the system enhance the effectiveness of collaborative filtering.}
+      \field{langid}{english}
+      \field{title}{Hybrid {{Recommender Systems}}: {{Survey}} and {{Experiments}}}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\7WKI7JTX\Burke - Hybrid Recommender Systems Survey and Experiments.pdf
+      \endverb
+    \endentry
+    \entry{cunliffInstitutionalizingTransformativeLearning2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=baad686f3f667654b1a4d51362872907}{%
+           family={Cunliff},
+           familyi={C\bibinitperiod},
+           given={Ed},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c10f82bd1cb0d7fa667903a85c4752a1}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{312cd0bae45d98ce307698af389fbf62}
+      \strng{fullhash}{312cd0bae45d98ce307698af389fbf62}
+      \strng{fullhashraw}{312cd0bae45d98ce307698af389fbf62}
+      \strng{bibnamehash}{312cd0bae45d98ce307698af389fbf62}
+      \strng{authorbibnamehash}{312cd0bae45d98ce307698af389fbf62}
+      \strng{authornamehash}{312cd0bae45d98ce307698af389fbf62}
+      \strng{authorfullhash}{312cd0bae45d98ce307698af389fbf62}
+      \strng{authorfullhashraw}{312cd0bae45d98ce307698af389fbf62}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{The Challenge Finding a sense of authentic self as an institution, a true sense of mission, and the means to live that mission were the central focus of a strategic planning process addressed by the University of Central Oklahoma about fifteen years ago. As the institution grew within a metropolitan-serving mission, the goal to transform students from adolescents to adults and find new potential in their lives led to an exciting journey that is still vibrant and relevant today.}
+      \field{issn}{1047-8485}
+      \field{journaltitle}{Metropolitan Universities}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{shortjournal}{MUJ}
+      \field{shorttitle}{Institutionalizing {{Transformative Learning}}}
+      \field{title}{Institutionalizing {{Transformative Learning}}: {{The Trees}}, Then the {{Forest}}, Then the {{Realization}}}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{29}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.18060/22407
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\9RSNUXNI\Cunliff and King - 2018 - Institutionalizing Transformative Learning The Trees, then the Forest, then the Realization.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://demo.ulib.iupui.edu/ojs/index.php/muj/article/view/22407
+      \endverb
+      \verb{url}
+      \verb https://demo.ulib.iupui.edu/ojs/index.php/muj/article/view/22407
+      \endverb
+    \endentry
+    \entry{deweyEXPERIENCEEDUCATION1938}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=03b3356eb23d298d57635488371299f9}{%
+           family={Dewey},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03b3356eb23d298d57635488371299f9}
+      \strng{fullhash}{03b3356eb23d298d57635488371299f9}
+      \strng{fullhashraw}{03b3356eb23d298d57635488371299f9}
+      \strng{bibnamehash}{03b3356eb23d298d57635488371299f9}
+      \strng{authorbibnamehash}{03b3356eb23d298d57635488371299f9}
+      \strng{authornamehash}{03b3356eb23d298d57635488371299f9}
+      \strng{authorfullhash}{03b3356eb23d298d57635488371299f9}
+      \strng{authorfullhashraw}{03b3356eb23d298d57635488371299f9}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{langid}{english}
+      \field{title}{{{EXPERIENCE}} \& {{EDUCATION}}}
+      \field{year}{1938}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\9ZMURF7F\Dewey - EXPERIENCE & EDUCATION.pdf
+      \endverb
+    \endentry
+    \entry{dillenbourgWhatYouMean1999}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b396c0bb09d01755d1a2a8198ab785e}{%
+           family={Dillenbourg},
+           familyi={D\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6b396c0bb09d01755d1a2a8198ab785e}
+      \strng{fullhash}{6b396c0bb09d01755d1a2a8198ab785e}
+      \strng{fullhashraw}{6b396c0bb09d01755d1a2a8198ab785e}
+      \strng{bibnamehash}{6b396c0bb09d01755d1a2a8198ab785e}
+      \strng{authorbibnamehash}{6b396c0bb09d01755d1a2a8198ab785e}
+      \strng{authornamehash}{6b396c0bb09d01755d1a2a8198ab785e}
+      \strng{authorfullhash}{6b396c0bb09d01755d1a2a8198ab785e}
+      \strng{authorfullhashraw}{6b396c0bb09d01755d1a2a8198ab785e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{langid}{english}
+      \field{title}{What Do You Mean by 'Collaborative Learning'?}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\LK5QUTR6\Dillenbourg - What do you mean by 'collaborative learning'.pdf
+      \endverb
+    \endentry
+    \entry{eriksonErikEriksonsStages1950}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8c1c0fd8835685dd658490c794d3168e}{%
+           family={Erikson},
+           familyi={E\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c1c0fd8835685dd658490c794d3168e}
+      \strng{fullhash}{8c1c0fd8835685dd658490c794d3168e}
+      \strng{fullhashraw}{8c1c0fd8835685dd658490c794d3168e}
+      \strng{bibnamehash}{8c1c0fd8835685dd658490c794d3168e}
+      \strng{authorbibnamehash}{8c1c0fd8835685dd658490c794d3168e}
+      \strng{authornamehash}{8c1c0fd8835685dd658490c794d3168e}
+      \strng{authorfullhash}{8c1c0fd8835685dd658490c794d3168e}
+      \strng{authorfullhashraw}{8c1c0fd8835685dd658490c794d3168e}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{langid}{english}
+      \field{title}{Erik {{Erikson}}’s {{Stages}} of {{Psychosocial Development}}}
+      \field{year}{1950}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\HVWQT3KM\Erikson - Erik Erikson’s Stages of Psychosocial Development.pdf
+      \endverb
+    \endentry
+    \entry{felfernigBasicApproachesRecommendation2014}{incollection}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=81655836ef41c3264e367ccbbd394701}{%
+           family={Felfernig},
+           familyi={F\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9017b98296d22e08f08cf5cafe13df4}{%
+           family={Jeran},
+           familyi={J\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4be0b5c75886265a9eab768b04b5324a}{%
+           family={Ninaus},
+           familyi={N\bibinitperiod},
+           given={Gerald},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0f1070ab5447a64e72e4064efe162fe}{%
+           family={Reinfrank},
+           familyi={R\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ff9e18f5e8bc7be30804788e64015c6}{%
+           family={Reiterer},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49072f06ff321653713eeaa70bf40b38}{%
+           family={Stettinger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=20712b47eab86b68b617f8a8115a2c3e}{%
+           family={Robillard},
+           familyi={R\bibinitperiod},
+           given={Martin\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=882ca857ba8ca6c5d0a0cda0911dd67a}{%
+           family={Maalej},
+           familyi={M\bibinitperiod},
+           given={Walid},
+           giveni={W\bibinitperiod}}}%
+        {{hash=795c5cea0bb4afefa39e323647ce74de}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9bfbc841af43915c12169734f59a4e7b}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{e25fa8b659b619b57ce775bfddd66405}
+      \strng{fullhash}{156e74d451a4444fae2d06f624554d34}
+      \strng{fullhashraw}{156e74d451a4444fae2d06f624554d34}
+      \strng{bibnamehash}{156e74d451a4444fae2d06f624554d34}
+      \strng{authorbibnamehash}{156e74d451a4444fae2d06f624554d34}
+      \strng{authornamehash}{e25fa8b659b619b57ce775bfddd66405}
+      \strng{authorfullhash}{156e74d451a4444fae2d06f624554d34}
+      \strng{authorfullhashraw}{156e74d451a4444fae2d06f624554d34}
+      \strng{editorbibnamehash}{2a305b9b29880a550a211a09b6a7845e}
+      \strng{editornamehash}{3d41b1c5790d532809cbcefc139c0738}
+      \strng{editorfullhash}{2a305b9b29880a550a211a09b6a7845e}
+      \strng{editorfullhashraw}{2a305b9b29880a550a211a09b6a7845e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recommendation systems support users in finding items of interest. In this chapter, we introduce the basic approaches of collaborative filtering, contentbased filtering, and knowledge-based recommendation. We first discuss principles of the underlying algorithms based on a running example. Thereafter, we provide an overview of hybrid recommendation approaches which combine basic variants. We conclude this chapter with a discussion of newer algorithmic trends, especially critiquing-based and group recommendation.}
+      \field{booktitle}{Recommendation {{Systems}} in {{Software Engineering}}}
+      \field{isbn}{978-3-642-45134-8 978-3-642-45135-5}
+      \field{langid}{english}
+      \field{title}{Basic {{Approaches}} in {{Recommendation Systems}}}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{15\bibrangedash 37}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/978-3-642-45135-5_2
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\NQSV9Z3C\Felfernig et al. - 2014 - Basic Approaches in Recommendation Systems.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-642-45135-5_2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-642-45135-5_2
+      \endverb
+    \endentry
+    \entry{hollandTheoryVocationalChoice1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b0c33ef1e675b5bffe677f1743e656c}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6b0c33ef1e675b5bffe677f1743e656c}
+      \strng{fullhash}{6b0c33ef1e675b5bffe677f1743e656c}
+      \strng{fullhashraw}{6b0c33ef1e675b5bffe677f1743e656c}
+      \strng{bibnamehash}{6b0c33ef1e675b5bffe677f1743e656c}
+      \strng{authorbibnamehash}{6b0c33ef1e675b5bffe677f1743e656c}
+      \strng{authornamehash}{6b0c33ef1e675b5bffe677f1743e656c}
+      \strng{authorfullhash}{6b0c33ef1e675b5bffe677f1743e656c}
+      \strng{authorfullhashraw}{6b0c33ef1e675b5bffe677f1743e656c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{issn}{1939-2168, 0022-0167}
+      \field{journaltitle}{Journal of Counseling Psychology}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Counseling Psychology}
+      \field{title}{A Theory of Vocational Choice.}
+      \field{urlday}{3}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{1959}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{35\bibrangedash 45}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1037/h0040767
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.apa.org/doi/10.1037/h0040767
+      \endverb
+      \verb{url}
+      \verb https://doi.apa.org/doi/10.1037/h0040767
+      \endverb
+    \endentry
+    \entry{ISO924121020102010}{standard}{}{}
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{{{ISO}} 9241-210:2010 — {{Ergonomics}} of Human-System Interaction — {{Part}} 210: {{Human-centred}} Design for Interactive Systems}
+      \field{type}{Standard}
+      \field{year}{2010}
+      \field{dateera}{ce}
+    \endentry
+    \entry{jacksonClassicalElectrodynamics1999}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc51fc62aec5c2fb2968eb631d48cf2a}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima David},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NY}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{bc51fc62aec5c2fb2968eb631d48cf2a}
+      \strng{fullhash}{bc51fc62aec5c2fb2968eb631d48cf2a}
+      \strng{fullhashraw}{bc51fc62aec5c2fb2968eb631d48cf2a}
+      \strng{bibnamehash}{bc51fc62aec5c2fb2968eb631d48cf2a}
+      \strng{authorbibnamehash}{bc51fc62aec5c2fb2968eb631d48cf2a}
+      \strng{authornamehash}{bc51fc62aec5c2fb2968eb631d48cf2a}
+      \strng{authorfullhash}{bc51fc62aec5c2fb2968eb631d48cf2a}
+      \strng{authorfullhashraw}{bc51fc62aec5c2fb2968eb631d48cf2a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3. ed., [Nachdr.]}
+      \field{isbn}{978-0-471-30932-1}
+      \field{langid}{english}
+      \field{pagetotal}{808}
+      \field{title}{Classical Electrodynamics}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\2HMGEK3B\Jackson - 2009 - Classical electrodynamics.pdf
+      \endverb
+    \endentry
+    \entry{kolbExperientialLearningTheory2014}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5089e249846f7339ecad82d42e130d74}{%
+           family={Kolb},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b3ed00b6302bef40bbbe494b20012e8}{%
+           family={Boyatzis},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d51fa40ee7c1755285427c6a9858bbba}{%
+           family={Mainemelis},
+           familyi={M\bibinitperiod},
+           given={Charalampos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7d3b82ab10c9f81462e04fa4ca523a77}{%
+           family={Sternberg},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f16a6d61e90abef1fc0d3dea1521a828}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Li-fang},
+           giveni={L\bibinithyphendelim f\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{475f2cea5c779cc2dda1ff44af2dce60}
+      \strng{fullhash}{475f2cea5c779cc2dda1ff44af2dce60}
+      \strng{fullhashraw}{475f2cea5c779cc2dda1ff44af2dce60}
+      \strng{bibnamehash}{475f2cea5c779cc2dda1ff44af2dce60}
+      \strng{authorbibnamehash}{475f2cea5c779cc2dda1ff44af2dce60}
+      \strng{authornamehash}{475f2cea5c779cc2dda1ff44af2dce60}
+      \strng{authorfullhash}{475f2cea5c779cc2dda1ff44af2dce60}
+      \strng{authorfullhashraw}{475f2cea5c779cc2dda1ff44af2dce60}
+      \strng{editorbibnamehash}{f1482f011645feec1aacf8ff191ff171}
+      \strng{editornamehash}{f1482f011645feec1aacf8ff191ff171}
+      \strng{editorfullhash}{f1482f011645feec1aacf8ff191ff171}
+      \strng{editorfullhashraw}{f1482f011645feec1aacf8ff191ff171}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Conceptualization (AC) and Reflective Observation (RO). People with this learning style are best at understanding a wide range of information and putting into concise, logical form. Individuals with an Assimilating style are less focused on people and more interested in ideas and abstract concepts. Generally, people with this style find it more important that a theory have logical soundness than practical value. The Assimilating learning style is important for effectiveness in information and science careers. In formal learning situations, people with this style prefer readings, lectures, exploring analytical models, and having time to think things through.}
+      \field{booktitle}{Perspectives on {{Thinking}}, {{Learning}}, and {{Cognitive Styles}}}
+      \field{edition}{0}
+      \field{isbn}{978-1-4106-0598-6}
+      \field{langid}{english}
+      \field{shorttitle}{Experiential {{Learning Theory}}}
+      \field{title}{Experiential {{Learning Theory}}: {{Previous Research}} and {{New Directions}}}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{227\bibrangedash 248}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.4324/9781410605986-9
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\JQYFE4IJ\Kolb et al. - 2014 - Experiential Learning Theory Previous Research and New Directions.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.taylorfrancis.com/books/9781135663629/chapters/10.4324/9781410605986-9
+      \endverb
+      \verb{url}
+      \verb https://www.taylorfrancis.com/books/9781135663629/chapters/10.4324/9781410605986-9
+      \endverb
+    \endentry
+    \entry{kristof-brownCONSEQUENCESINDIVIDUALSFIT2005}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d42da2bd7d3c9dcadc1c46ce5180d31c}{%
+           family={Kristof‐Brown},
+           familyi={K\bibinithyphendelim B\bibinitperiod},
+           given={Amy\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de453a55722fd0d4e2677a945c90c1d5}{%
+           family={Zimmerman},
+           familyi={Z\bibinitperiod},
+           given={Ryan\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a96652bbc3e4455c48128348fa7152ae}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Erin\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{800137a981a05822c8732d7fd7a1b2c8}
+      \strng{fullhash}{800137a981a05822c8732d7fd7a1b2c8}
+      \strng{fullhashraw}{800137a981a05822c8732d7fd7a1b2c8}
+      \strng{bibnamehash}{800137a981a05822c8732d7fd7a1b2c8}
+      \strng{authorbibnamehash}{800137a981a05822c8732d7fd7a1b2c8}
+      \strng{authornamehash}{800137a981a05822c8732d7fd7a1b2c8}
+      \strng{authorfullhash}{800137a981a05822c8732d7fd7a1b2c8}
+      \strng{authorfullhashraw}{800137a981a05822c8732d7fd7a1b2c8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{This meta‐analysis investigated the relationships between person–job (PJ), person–organization (PO), person–group, and person–supervisor fit with preentry (applicant attraction, job acceptance, intent to hire, job offer) and postentry individual‐level criteria (attitudes, performance, withdrawal behaviors, strain, tenure). A search of published articles, conference presentations, dissertations, and working papers yielded 172 usable studies with 836 effect sizes. Nearly all of the credibility intervals did not include 0, indicating the broad generalizability of the relationships across situations. Various ways in which fit was conceptualized and measured, as well as issues of study design, were examined as moderators to these relationships in studies of PJ and PO fit. Interrelationships between the various types of fit are also meta‐analyzed. 25 studies using polynomial regression as an analytic technique are reviewed separately, because of their unique approach to assessing fit. Broad themes emerging from the results are discussed to generate the implications for future research on fit.}
+      \field{issn}{0031-5826, 1744-6570}
+      \field{journaltitle}{Personnel Psychology}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shortjournal}{Personnel Psychology}
+      \field{shorttitle}{{{CONSEQUENCES OF INDIVIDUALS}}' {{FIT AT WORK}}}
+      \field{title}{{{CONSEQUENCES OF INDIVIDUALS}}' {{FIT AT WORK}}: {{A META}}‐{{ANALYSIS OF PERSON}}–{{JOB}}, {{PERSON}}–{{ORGANIZATION}}, {{PERSON}}–{{GROUP}}, {{AND PERSON}}–{{SUPERVISOR FIT}}}
+      \field{urlday}{3}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{58}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{281\bibrangedash 342}
+      \range{pages}{62}
+      \verb{doi}
+      \verb 10.1111/j.1744-6570.2005.00672.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\E9TPI8VR\Kristof‐Brown et al. - 2005 - CONSEQUENCES OF INDIVIDUALS' FIT AT WORK A META‐ANALYSIS OF PERSON–JOB, PERSON–ORGANIZATION, PERSON.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.1744-6570.2005.00672.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.1744-6570.2005.00672.x
+      \endverb
+    \endentry
+    \entry{kumartpMarketSegmentationAssessment2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c500ae2c25c05c8951f98d6a8b958075}{%
+           family={Kumar\bibnamedelima Tp},
+           familyi={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Krishna},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c500ae2c25c05c8951f98d6a8b958075}
+      \strng{fullhash}{c500ae2c25c05c8951f98d6a8b958075}
+      \strng{fullhashraw}{c500ae2c25c05c8951f98d6a8b958075}
+      \strng{bibnamehash}{c500ae2c25c05c8951f98d6a8b958075}
+      \strng{authorbibnamehash}{c500ae2c25c05c8951f98d6a8b958075}
+      \strng{authornamehash}{c500ae2c25c05c8951f98d6a8b958075}
+      \strng{authorfullhash}{c500ae2c25c05c8951f98d6a8b958075}
+      \strng{authorfullhashraw}{c500ae2c25c05c8951f98d6a8b958075}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Market segmentation evaluation and selection is one of the important marketing issues for all companies. This study is for selecting the market segment and can be used as a model for future studies. Segmentation change factors are common in five main areas: segmentation factor, Competitive, Financial and economic factors, and Technological and socio-political factors are taken as evaluation parameters. WSM methodology for market segmentation evaluation and selection. This article will summarize and present a new approach. In MCDM methods, WSM alone cannot be used for multidimensional problems. Multidimensional means all dimensions have different units. Besides using WSM, other methods can solve a one-dimensional problem. However, they were originally developed to solve multidimensional problems, and it is for solving one-dimensional problems a special method makes the WSM method. Finally result from the manufacturing process technology required is in 1st rank and contribution margins are in the last rank.}
+      \field{issn}{2583-4746, 2583-4746}
+      \field{journaltitle}{REST Journal on Banking, Accounting and Business}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{shortjournal}{jbab}
+      \field{title}{A {{Market Segmentation Assessment Weighted Scoring}} for {{Using WSM Method An Study}} for {{Different Market}}}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{1}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.46632/jbab/1/3/1
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\4N25AW4B\2022 - A Market Segmentation Assessment Weighted Scoring for Using WSM Method An Study for Different Market.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://restpublisher.com/articlejbab/10-46632-jbab-1-3-1/
+      \endverb
+      \verb{url}
+      \verb http://restpublisher.com/articlejbab/10-46632-jbab-1-3-1/
+      \endverb
+    \endentry
+    \entry{normanDesignEverydayThings1986}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23f12bb124db5cb91003802eaee52457}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23f12bb124db5cb91003802eaee52457}
+      \strng{fullhash}{23f12bb124db5cb91003802eaee52457}
+      \strng{fullhashraw}{23f12bb124db5cb91003802eaee52457}
+      \strng{bibnamehash}{23f12bb124db5cb91003802eaee52457}
+      \strng{authorbibnamehash}{23f12bb124db5cb91003802eaee52457}
+      \strng{authornamehash}{23f12bb124db5cb91003802eaee52457}
+      \strng{authorfullhash}{23f12bb124db5cb91003802eaee52457}
+      \strng{authorfullhashraw}{23f12bb124db5cb91003802eaee52457}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{langid}{english}
+      \field{title}{The {{Design}} of {{Everyday Things}}}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\3HQGZI8R\Norman - The Design of Everyday Things.pdf
+      \endverb
+    \endentry
+    \entry{ricciIntroductionRecommenderSystems2011}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5abb1d77d80f46918651a5bbc5ee8371}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e583bae19511d6aca7ecc9e44953ed07}{%
+           family={Rokach},
+           familyi={R\bibinitperiod},
+           given={Lior},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4610f4e9c8ec107e9ad7dfe04a1d7c30}{%
+           family={Shapira},
+           familyi={S\bibinitperiod},
+           given={Bracha},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=5abb1d77d80f46918651a5bbc5ee8371}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e583bae19511d6aca7ecc9e44953ed07}{%
+           family={Rokach},
+           familyi={R\bibinitperiod},
+           given={Lior},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4610f4e9c8ec107e9ad7dfe04a1d7c30}{%
+           family={Shapira},
+           familyi={S\bibinitperiod},
+           given={Bracha},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e70d5538b6a5795b5184760f1044b185}{%
+           family={Kantor},
+           familyi={K\bibinitperiod},
+           given={Paul\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{525613e36e598515af20951b79d373e1}
+      \strng{fullhash}{525613e36e598515af20951b79d373e1}
+      \strng{fullhashraw}{525613e36e598515af20951b79d373e1}
+      \strng{bibnamehash}{525613e36e598515af20951b79d373e1}
+      \strng{authorbibnamehash}{525613e36e598515af20951b79d373e1}
+      \strng{authornamehash}{525613e36e598515af20951b79d373e1}
+      \strng{authorfullhash}{525613e36e598515af20951b79d373e1}
+      \strng{authorfullhashraw}{525613e36e598515af20951b79d373e1}
+      \strng{editorbibnamehash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{editornamehash}{634300cd49419dfc9d76cdc3fd4ecce2}
+      \strng{editorfullhash}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \strng{editorfullhashraw}{9b3f96e2f62ebfd31dfddc10e4dc3f92}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recommender Systems (RSs) are software tools and techniques providing suggestions for items to be of use to a user. In this introductory chapter we briefly discuss basic RS ideas and concepts. Our main goal is to delineate, in a coherent and structured way, the chapters included in this handbook and to help the reader navigate the extremely rich and detailed content that the handbook offers.}
+      \field{booktitle}{Recommender {{Systems Handbook}}}
+      \field{isbn}{978-0-387-85819-7 978-0-387-85820-3}
+      \field{langid}{english}
+      \field{title}{Introduction to {{Recommender Systems Handbook}}}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1007/978-0-387-85820-3_1
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\9X5TQPR7\Ricci et al. - 2011 - Introduction to Recommender Systems Handbook.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-0-387-85820-3_1
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-0-387-85820-3_1
+      \endverb
+    \endentry
+    \entry{roschelleConstructionSharedKnowledge1995}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=70f61bc6483655abca8ab4f6a0823551}{%
+           family={Roschelle},
+           familyi={R\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdde5a56f04c10c56ab131c7dfcdb0ad}{%
+           family={Teasley},
+           familyi={T\bibinitperiod},
+           given={Stephanie\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=86c975ef550e3b5c6002e75614d502d3}{%
+           family={O’Malley},
+           familyi={O\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{90c6169c7624f643f7b34b28128e23fe}
+      \strng{fullhash}{90c6169c7624f643f7b34b28128e23fe}
+      \strng{fullhashraw}{90c6169c7624f643f7b34b28128e23fe}
+      \strng{bibnamehash}{90c6169c7624f643f7b34b28128e23fe}
+      \strng{authorbibnamehash}{90c6169c7624f643f7b34b28128e23fe}
+      \strng{authornamehash}{90c6169c7624f643f7b34b28128e23fe}
+      \strng{authorfullhash}{90c6169c7624f643f7b34b28128e23fe}
+      \strng{authorfullhashraw}{90c6169c7624f643f7b34b28128e23fe}
+      \strng{editorbibnamehash}{86c975ef550e3b5c6002e75614d502d3}
+      \strng{editornamehash}{86c975ef550e3b5c6002e75614d502d3}
+      \strng{editorfullhash}{86c975ef550e3b5c6002e75614d502d3}
+      \strng{editorfullhashraw}{86c975ef550e3b5c6002e75614d502d3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper focuses on the processes involved in collaboration using a microanalysis of one dyad's work with a computer-based environment (the Envisioning Machine). The interaction between participants is analysed with respect to a 'Joint Problem Space', which comprises an emergent, socially-negotiated set of knowledge elements, such as goals, problem state descriptions and problem solving actions. Our analysis shows how this shared conceptual space is constructed through the external mediational framework of shared language, situation and activity. This approach has particular implications for understanding how the benefits of collaboration are realised and serves to clarify the possible roles of the computers in supporting collaborative learning.}
+      \field{booktitle}{Computer {{Supported Collaborative Learning}}}
+      \field{isbn}{978-3-642-85100-1 978-3-642-85098-1}
+      \field{langid}{english}
+      \field{title}{The {{Construction}} of {{Shared Knowledge}} in {{Collaborative Problem Solving}}}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{69\bibrangedash 97}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/978-3-642-85098-1_5
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\YP7P3LE6\Roschelle and Teasley - 1995 - The Construction of Shared Knowledge in Collaborative Problem Solving.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-642-85098-1_5
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-642-85098-1_5
+      \endverb
+    \endentry
+    \entry{russellArtificialIntelligenceModern2010}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=18ee0a7bfc995f40254c9d425c977a49}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{namea}{9}{}{%
+        {{hash=f49c9a715cf7b34c69d223e49d9a6615}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-wei},
+           giveni={M\bibinithyphendelim w\bibinitperiod}}}%
+        {{hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ac56afa5bcb9a863ab4555f3ac357ef5}{%
+           family={Dragan},
+           familyi={D\bibinitperiod},
+           given={Anca},
+           giveni={A\bibinitperiod}}}%
+        {{hash=751a9393d43438966f829203de48f8d4}{%
+           family={Forsyth},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c75a5377b6dc5213831576e88ffe553c}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Jitendra},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6344a34b41329229e12264c8385f71d7}{%
+           family={Mansinghka},
+           familyi={M\bibinitperiod},
+           given={Vikash},
+           giveni={V\bibinitperiod}}}%
+        {{hash=809f695b398afbb54b544c49e8d1bbbb}{%
+           family={Pearl},
+           familyi={P\bibinitperiod},
+           given={Judea},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ea0f2db42141b96e5751d533bd719db5}{%
+           family={Wooldridge},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{a4f50258a14156905c8d2b1b4704be30}
+      \strng{fullhash}{a4f50258a14156905c8d2b1b4704be30}
+      \strng{fullhashraw}{a4f50258a14156905c8d2b1b4704be30}
+      \strng{bibnamehash}{a4f50258a14156905c8d2b1b4704be30}
+      \strng{authorbibnamehash}{a4f50258a14156905c8d2b1b4704be30}
+      \strng{authornamehash}{a4f50258a14156905c8d2b1b4704be30}
+      \strng{authorfullhash}{a4f50258a14156905c8d2b1b4704be30}
+      \strng{authorfullhashraw}{a4f50258a14156905c8d2b1b4704be30}
+      \strng{nameabibnamehash}{247ba619e8977f631cb3a50242bb5b41}
+      \strng{nameanamehash}{dc665469316a026c1d853330edf75393}
+      \strng{nameafullhash}{247ba619e8977f631cb3a50242bb5b41}
+      \strng{nameafullhashraw}{247ba619e8977f631cb3a50242bb5b41}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"Updated edition of popular textbook on Artificial Intelligence. This edition specific looks at ways of keeping artificial intelligence under control"--}
+      \field{edition}{Fourth Edition}
+      \field{isbn}{978-0-13-461099-3}
+      \field{langid}{english}
+      \field{nameatype}{collaborator}
+      \field{pagetotal}{1115}
+      \field{series}{Pearson {{Series}} in {{Artificial Intelligence}}}
+      \field{shorttitle}{Artificial Intelligence}
+      \field{title}{Artificial Intelligence: A Modern Approach}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\RF8LZSSW\Russell and Norvig - 2021 - Artificial intelligence a modern approach.pdf
+      \endverb
+    \endentry
+    \entry{schonEducatingReflectivePractitioner1987}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=081a6d1b7b7be61028290617f538a059}{%
+           family={Schön},
+           familyi={S\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{081a6d1b7b7be61028290617f538a059}
+      \strng{fullhash}{081a6d1b7b7be61028290617f538a059}
+      \strng{fullhashraw}{081a6d1b7b7be61028290617f538a059}
+      \strng{bibnamehash}{081a6d1b7b7be61028290617f538a059}
+      \strng{authorbibnamehash}{081a6d1b7b7be61028290617f538a059}
+      \strng{authornamehash}{081a6d1b7b7be61028290617f538a059}
+      \strng{authorfullhash}{081a6d1b7b7be61028290617f538a059}
+      \strng{authorfullhashraw}{081a6d1b7b7be61028290617f538a059}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{langid}{english}
+      \field{title}{Educating the Reflective Practitioner}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\9K5HF4FA\Educating the reflective practitioner.pdf
+      \endverb
+    \endentry
+    \entry{sommervilleSoftwareEngineering2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston Columbus Indianapolis New York San Francisco Hoboken Amsterdam Cape Town Dubai London}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Tenth edition}
+      \field{isbn}{978-1-292-09613-1 978-1-292-09614-8}
+      \field{langid}{english}
+      \field{pagetotal}{1}
+      \field{series}{Always Learning}
+      \field{title}{Software Engineering}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\VUS3N38M\Sommerville - 2016 - Software engineering.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

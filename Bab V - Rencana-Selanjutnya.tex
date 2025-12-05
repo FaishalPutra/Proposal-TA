@@ -3,9 +3,84 @@
 % ==========================================
 \chapter{RENCANA SELANJUTNYA}
 \label{chap:rencana-selanjutnya}
-Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlukan atau akan disiapkan, dan risiko dan mitigasinya, yang meliputi:
+% Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlukan atau akan disiapkan, dan risiko dan mitigasinya, yang meliputi:
+% \begin{enumerate}
+% \item	Rencana implementasi, termasuk alat dan bahan yang diperlukan, lingkungan, konfigurasi, biaya, dan sebagainya.
+% \item	Desain pengujian dan evaluasi, misalnya metode verifikasi dan validasi.
+% \item	Analisis risiko dan mitigasi, misalnya tindakan selanjutnya jika ada yang tidak berjalan sesuai rencana.
+% \end{enumerate}
+
+\section{Rencana Implementasi}
+Rencana implementasi sistem dalam tugas akhir ini mengikuti model pengembangan SDLC \textit{Waterfall}. Meskipun metode \textit{waterfall} digunakan sebagai kerangka utama, pendekatan \textit{user centered design} (UCD) diterapkan di dalam fase analisis dan desain untuk memastikan kebutuhan pengguna menjadi dasar perumusan solusi, serta menghasilkan antarmuka dan alur yang sesuai dengan pola penggunaan mahasiswa. Setiap tahap menghasilkan artefak yang menjadi dasar bagi tahap berikutnya sehingga proses pengembangan dapat berjalan secara sistematis dan terdokumentasi.
+
 \begin{enumerate}
-\item	Rencana implementasi, termasuk alat dan bahan yang diperlukan, lingkungan, konfigurasi, biaya, dan sebagainya.
-\item	Desain pengujian dan evaluasi, misalnya metode verifikasi dan validasi.
-\item	Analisis risiko dan mitigasi, misalnya tindakan selanjutnya jika ada yang tidak berjalan sesuai rencana.
+\item	Tahap Desain Sistem Rekomendasi \\ Tahap ini berfokus pada pendalaman kebutuhan pengguna dan pemodelan sistem secara menyeluruh. Aktivitas pada tahap ini meliputi pemetaan proses bisnis pembentukan tim, penyusunan use case hingga tingkat alur alternatif, pembuatan sequence diagram untuk menggambarkan interaksi sistem, serta identifikasi aktor dan alur pencarian tim. Tahap ini menghasilkan blueprint desain sistem yang menjadi dasar bagi seluruh proses pengembangan berikutnya.
+\item   Tahap Pengembangan Mekanisme Rekomendasi \textit{People to Project} \\ Tahap ini berfokus pada penyusunan mekanisme pencocokan kegiatan yang menjadi inti dari subsistem \textit{people to project}. Aktivitas pada tahap ini meliputi perumusan atribut profil mahasiswa dan atribut kegiatan yang relevan untuk proses pencocokan, serta penetapan bobot kriteria berdasarkan landasan teori terkait penilaian multi-kriteria. Setelah itu, dikembangkan metode perhitungan matching compatibility scoring yang mencakup proses normalisasi, pembobotan, hingga penentuan skor akhir kecocokan. Tahap ini juga mencakup penyusunan penjelasan relevansi (explainability) agar mahasiswa dapat memahami alasan suatu kegiatan direkomendasikan. Hasil dari tahap ini adalah mekanisme rekomendasi yang telah berfungsi secara mandiri dan siap diintegrasikan dengan modul interaksi yang telah dikembangkan pada tahap sebelumnya.
+\item   Tahap Pengembangan Interaksi \textit{people to project} \\ Tahap ini berfokus pada pengembangan bagian sistem yang berhubungan langsung dengan mahasiswa sebagai pengguna. Aktivitas yang dilakukan mencakup perancangan dan pembuatan antarmuka yang memungkinkan mahasiswa mengelola profil, menelusuri daftar kegiatan kolaboratif, serta mengakses informasi detail dari setiap kegiatan. Pada tahap ini disusun wireframe dan mockup untuk memastikan alur interaksi sesuai dengan kebutuhan pengguna yang telah dirumuskan sebelumnya. 
+\item   Tahap Integrasi Sistem dan Pengujian \textit{End-to-End} \\ Tahap ini menggabungkan keseluruhan komponen, menyelaraskan struktur database, dan memastikan alur pembentukan tim berjalan secara \textit{end-to-end}. Setelah integrasi, dilakukan pengujian lengkap mulai dari pembuatan profil hingga pengajuan bergabung ke tim berdasarkan rekomendasi. Hasil pengujian digunakan untuk iterasi dan penyempurnaan sehingga prototipe final siap untuk dievaluasi secara formal pada tahap penelitian selanjutnya.
 \end{enumerate}
+
+\section{\textit{Timeline} Pengerjaan}
+
+Timeline pengerjaan dirancang mengikuti urutan tahapan yang telah ditetapkan pada rencana implementasi disajika pada gambar \ref{gambar:timeline}.
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/timeline.png}
+	\caption{Timeline Pengerjaan}
+	\label{gambar:timeline}
+\end{figure}
+
+\section{Pengujian Desain}
+
+Tahap Pengujian pada tugas akhir ini dilakukan untuk memastikan bahwa desain sistem dan artefak yang dikembangkan telah sesuai dengan kebutuhan pengguna serta mendukung proses pencarian kegiatan kolaboratif secara efektif. Pada modul \textit{people to project}, validasi dilakukan melalui dua pendekatan utama, yaitu \textit{User Acceptance Testing} (UAT) dan \textit{Usability Testing}. UAT digunakan untuk menilai sejauh mana alur pengelolaan profil, akses daftar kegiatan, serta navigasi menuju halaman rekomendasi sudah memenuhi ekspektasi mahasiswa sebagai pengguna. Pengguna diminta menjalankan skenario penggunaan yang melibatkan pembaruan profil, pemilihan kegiatan, dan interaksi dengan halaman rekomendasi. Sementara itu, \textit{Usability Testing} difokuskan pada aspek kemudahan penggunaan, kejelasan alur navigasi, dan sifat intuitif dari antarmuka yang telah dirancang. Pengguna memberikan umpan balik terkait kemudahan memahami informasi kegiatan, alur menuju rekomendasi, serta konsistensi tampilan antarmuka.
+
+Selain validasi pada sisi interaksi, modul mekanisme rekomendasi kegiatan juga divalidasi untuk memastikan bahwa algoritma \textit{matching compatibility scoring} menghasilkan rekomendasi yang relevan. Validasi dilakukan melalui pendekatan \textit{Scenario Based Evaluation}, yaitu pengujian berdasarkan serangkaian skenario mahasiswa dan kegiatan untuk menilai apakah rekomendasi yang muncul selaras dengan keputusan atau preferensi responden. Pendekatan ini membantu menilai apakah skor kecocokan yang dihasilkan algoritma dapat merepresentasikan kondisi nyata.
+
+\section{Analisis dan Mitigasi Risiko}
+
+Analisis risiko dilakukan untuk mengidentifikasi potensi hambatan yang dapat memengaruhi kelancaran proses pengembangan dan keberhasilan implementasi aplikasi kolaborasi mahasiswa. Mengingat keterbatasan waktu, sumber daya, serta dependensi antar tahapan pengembangan, tidak semua risiko memiliki tingkat urgensi yang sama. Oleh karena itu, penelitian ini memfokuskan analisis pada risiko-risiko yang memiliki dampak terbesar terhadap keberhasilan sistem rekomendasi dan proses pengujian desain disajikan pada tabel
+
+\vspace{20em}
+
+\begin{table}[t]
+\centering
+\caption{Tabel Risiko dan Mitigasinya}
+\label{tbl:risiko_mitigasi}
+\begin{tabular}{|p{0.8cm}|p{6cm}|p{7cm}|}
+\hline
+\textbf{No} & \textbf{Risiko} & \textbf{Mitigasi} \\
+\hline
+
+\textbf{1} & 
+Jadwal pengerjaan tidak sesuai rencana sehingga menghambat seluruh tahapan TA &
+Menyediakan \textit{buffer time}, membuat rencana mingguan, melakukan evaluasi progres rutin, dan memprioritaskan pengerjaan komponen kritis terlebih dahulu. \\
+\hline
+
+\textbf{2} & 
+User testing tidak memenuhi jumlah responden sehingga hasil evaluasi tidak valid &
+Memperpanjang periode rekrutmen, bekerja sama dengan organisasi mahasiswa, membuka formulir partisipasi di media sosial, dan memberikan insentif kecil bila diperlukan. \\
+\hline
+
+\textbf{3} &
+Algoritma rekomendasi menghasilkan keluaran yang tidak akurat / tidak logis &
+Melakukan iterasi terhadap bobot, memperbaiki definisi atribut, menguji algoritma dengan beberapa skenario realistis, dan menyesuaikan \textit{scoring} berdasarkan \textit{feedback} pengguna. \\
+\hline
+
+\textbf{4} &
+Integrasi modul rekomendasi dengan UI People to Project gagal atau tidak stabil &
+Melakukan integrasi bertahap sejak awal, melakukan pengujian per modul, memastikan struktur data konsisten, serta memperbaiki bug secepat mungkin begitu ditemukan. \\
+\hline
+
+\textbf{5} &
+Desain antarmuka tidak sesuai kebutuhan pengguna sehingga menghambat penggunaan prototipe &
+Melakukan \textit{usability testing} dalam beberapa putaran, memperbaiki navigasi dan tampilan berdasarkan umpan balik, serta menerapkan prinsip UCD secara konsisten. \\
+\hline
+
+\end{tabular}
+\end{table}
+
+Dengan demikian, analisis risiko ini diharapkan mampu mendukung keberhasilan prototipe yang dikembangkan dan meminimalkan gangguan yang dapat memengaruhi kualitas hasil tugas akhir.
+
+

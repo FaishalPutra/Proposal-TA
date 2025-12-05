@@ -7,18 +7,286 @@
 \chapter{ANALISIS MASALAH}
 \label{chap:analisis-masalah}
 \section{Analisis Kondisi Saat Ini}
-Menurut \textcite{laudon2020}, gambarkan terlebih dahulu model konseptual sistem yang ada saat ini. Model konseptual ini berisi berbagai komponen atau subsitem dan interaksi antarsubsistem tersebut. Setelah itu, berikan penjelasan tentang masalah yang ada pada sistem tersebut. Paragraf berikut berisi contoh penjabaran masalah sistem informasi fasilitas kesehatan untuk pasien \autocite{pressman2019}. 
+% Menurut \textcite{laudon2020}, gambarkan terlebih dahulu model konseptual sistem yang ada saat ini. Model konseptual ini berisi berbagai komponen atau subsitem dan interaksi antarsubsistem tersebut. Setelah itu, berikan penjelasan tentang masalah yang ada pada sistem tersebut. Paragraf berikut berisi contoh penjabaran masalah sistem informasi fasilitas kesehatan untuk pasien \autocite{pressman2019}. 
+Dalam pengembangan sistem rekomendasi yang relevan dan berorientasi pada pengguna, penting untuk memahami terlebih dahulu kondisi nyata yang dialami oleh mahasiswa dalam proses pencarian kegiatan kolaboratif. Untuk memperoleh gambaran yang lebih objektif dan tidak hanya bergantung pada asumsi, dilakukan survei kepada mahasiswa dari berbagai perguruan tinggi. Survei ini bertujuan memetakan bagaimana mahasiswa saat ini menemukan informasi kegiatan kolaboratif, frekuensi keterlibatan mereka dalam kegiatan kolaboratif, serta tingkat kesulitan yang mereka hadapi dalam memilih kegiatan yang sesuai dengan minat dan kemampuan mereka.
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/partisipasi.png}
+	\caption{Data partisipasi mahasiswa}
+	\label{gambar:partisipasi}
+\end{figure}
+
+Langkah pertama dalam memahami kondisi saat ini adalah melihat sejauh mana mahasiswa benar-benar terlibat dalam kegiatan kolaboratif. Berdasarkan gambar \ref{gambar:partisipasi}, tingkat partisipasi mahasiswa menunjukkan variasi yang cukup besar, namun kecenderungannya berada pada kategori rendah hingga sedang. Temuan ini menunjukkan bahwa keterlibatan mahasiswa dalam kegiatan kolaboratif sebenarnya belum konsisten, dan sebagian besar tidak mengikuti kegiatan kolaboratif secara rutin. Hal ini dapat mengindikasikan adanya hambatan tertentu yang membuat mahasiswa tidak aktif terlibat, baik dari sisi akses informasi maupun relevansi kegiatan yang tersedia.
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/temuan.png}
+	\caption{Data wadah mahasiswa dalam menemukan informasi kegiatan kolaboratif}
+	\label{gambar:temuan}
+\end{figure}
+
+Analisis berikutnya berfokus pada bagaimana mahasiswa menemukan informasi mengenai kegiatan kolaboratif. Gambar \ref{gambar:temuan} menunjukkan bahwa informasi masih diperoleh melalui kanal-kanal informal yang sifatnya tersebar. Mayoritas responden mengandalkan teman atau kenalan, media sosial, dan grup percakapan seperti WhatsApp dan Line. Hanya sebagian kecil yang mendapat informasi dari dosen dan tidak ada responden yang menggunakan platform khusus sebagai sumber informasi. Kondisi ini menandakan bahwa mahasiswa belum memiliki akses ke sistem informasi terpusat yang memfasilitasi pencarian kegiatan kolaboratif secara mudah dan terorganisasi.
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=0.8\textwidth]{image/kesulitan.png}
+	\caption{Data tingkat kesulitan mahasiswa}
+	\label{gambar:kesulitan}
+\end{figure}
+
+Tahap berikutnya dalam memahami kondisi saat ini adalah melihat tingkat kesulitan mahasiswa dalam menemukan kegiatan yang sesuai. Gambar \ref{gambar:kesulitan} menunjukkan bahwa mayoritas responden merasakan tingkat kesulitan yang cukup tinggi. Tidak ada responden yang menyatakan tidak mengalami kesulitan sama sekali. Temuan ini mengindikasikan bahwa mahasiswa cukup kesulitan dalam menemukan kegiatan kolaboratif yang sesuai dengan keinginan mereka. Secara keseluruhan, kondisi saat ini menunjukkan bahwa mahasiswa.
+
+\begin{enumerate}
+\item	tidak secara rutin berpartisipasi dalam kegiatan kolaboratif.
+\item   mengandalkan sumber informasi yang tidak terstruktur.
+\item   mengalami kesulitan dalam menentukan kecocokan kegiatan dengan profil mereka.
+\end{enumerate}
+
+Hal ini memperkuat urgensi adanya sistem rekomendasi yang mampu membantu mahasiswa menemukan kegiatan kolaboratif secara lebih mudah, terarah, dan sesuai dengan karakteristik pribadi mereka.
+
 \section{Analisis Kebutuhan}
-\lipsum[4]
+
+Analisis kebutuhan pengguna dilakukan untuk memahami apa yang sebenarnya diperlukan mahasiswa dalam proses pencarian kegiatan kolaboratif. Analisis kebutuhan ini dilakukan berdasarkan hasil survei serta interpretasi terhadap perilaku dan hambatan yang dialami pengguna. Pendekatan ini penting agar solusi yang dikembangkan tidak hanya menjawab permasalahan secara umum, tetapi mampu mengakomodasi kebutuhan nyata mahasiswa dalam konteks yang lebih spesifik.
+
 \subsection{Identifikasi Masalah Pengguna}
-\lipsum[5]
+
+Untuk mengidentifikasi permasalahan utama yang dialami mahasiswa, dilakukan analisis lanjutan terhadap data survei terkait hambatan yang mereka hadapi dalam mencari kegiatan kolaboratif, kebutuhan mereka akan bantuan, serta faktor-faktor yang dianggap penting dalam menentukan kecocokan suatu kegiatan kolaboratif.
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/hambatan.png}
+	\caption{Data kendala yang dialami mahasiswa}
+	\label{gambar:hambatan}
+\end{figure}
+
+Berdasarkan gambar \ref{gambar:hambatan}, Salah satu masalah terbesar yang dirasakan mahasiswa adalah informasi kegiatan kolaboratif yang tidak terpusat. Mayoritas responden menyatakan bahwa informasi kegiatan kolaboratif tersebar di banyak platform, sehingga menyulitkan mereka untuk melakukan pencarian secara efisien. Selain itu, responden mengungkapkan bahwa tidak adanya platform khusus yang dapat mengumpulkan berbagai peluang kegiatan kolaboratif secara terorganisasi membuat mereka harus mengandalkan sumber informal seperti media sosial atau rekomendasi teman. Hal ini memperkuat temuan pada analisis kondisi sebelumnya bahwa akses informasi mahasiswa sangat bergantung pada kanal yang tidak terstruktur. Survei juga menunjukkan bahwa mahasiswa membutuhkan bantuan nyata dalam menentukan kegiatan kolaboratif yang sesuai. Hal ini menegaskan bahwa mahasiswa menyadari keterbatasan mereka dalam menentukan kegiatan yang selaras dengan minat dan kemampuan, serta menginginkan adanya sistem yang dapat mendukung proses tersebut.
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/faktor.png}
+	\caption{Data faktor terpenting dalam pencocokan menurut mahasiswa}
+	\label{gambar:faktor}
+\end{figure}
+
+Lebih lanjut, gambar \ref{gambar:faktor} menunjukan bahwa mahasiswa ketika ditanyakan mengenai faktor-faktor yang dianggap paling penting dalam menentukan kecocokan kegiatan, responden secara dominan memilih minat pribadi dan keterampilan/skill sebagai komponen utama. Faktor lain seperti ketersediaan waktu, gaya kerja, dan pengalaman sebelumnya juga dianggap berpengaruh. Temuan ini menunjukkan bahwa proses pencocokan yang ideal harus mempertimbangkan berbagai dimensi profil pengguna dan tidak dapat bergantung pada satu aspek saja. Secara keseluruhan, hasil identifikasi masalah menunjukkan bahwa mahasiswa menghadapi tiga kelompok masalah utama:
+
+\begin{enumerate}
+\item	Akses informasi yang tidak terpusat, sehingga pencarian kegiatan kolaboratif memakan waktu dan tidak efisien.
+\item   Kesulitan dalam menilai kecocokan diri, terutama terkait minat, keterampilan, peran, dan gaya kerja.
+\item   Tidak adanya sistem yang memberikan rekomendasi terpersonalisasi, padahal mahasiswa membutuhkan bantuan untuk menentukan kegiatan yang relevan.
+\end{enumerate}
+
 \subsection{Kebutuhan Fungsional}
-\lipsum[6]
+
+Kebutuhan fungsional merupakan fungsi yang harus disediakan sistem agar mampu menjawab kebutuhan pengguna. Adapun kebutuhan fungsional untuk merancang solusi yang dapat membantu mahasiswa menemukan kegiatan kolaboratif disajikan pada tabel \ref{tbl:kebutuhan_fungsional}.
+
+\begin{table}[h]
+\centering
+\caption{Kebutuhan Fungsional Sistem}
+\label{tbl:kebutuhan_fungsional}
+\begin{tabular}{|p{1cm}|p{3.5cm}|p{9cm}|}
+\hline
+\textbf{Kode} & \textbf{Kebutuhan Fungsional} & \textbf{Deskripsi} \\
+\hline
+
+F01 & Pengelolaan profil pengguna &
+Sistem harus dapat mengumpulkan, menyimpan, dan memperbarui data profil (minat, keterampilan, dsb) \\
+\hline
+
+F02 & Pengelolaan data kegiatan kolaborasi &
+Sistem harus menyediakan fitur untuk menyimpan dan memperbarui data kegiatan kolaboratif, termasuk deskripsi, keterampilan yang dibutuhkan, peran yang tersedia, dan waktu pelaksanaan \\
+\hline
+
+F03 & Mekanisme pencocokan &
+Sistem harus memiliki mekanisme untuk mencocokkan profil mahasiswa dengan kebutuhan kegiatan kolaboratif berdasarkan parameter tertentu \\
+\hline
+
+F04 & Penyajian hasil pencocokan &
+Sistem harus dapat menampilkan daftar kegiatan kolaboratif yang relevan bagi pengguna berdasarkan proses pencocokan yang dilakukan \\
+\hline
+
+F05 & Akses informasi kegiatan kolaborasi &
+Pengguna harus dapat melihat informasi dan detail dari setiap kegiatan kolaborasi yang tersedia \\
+\hline
+
+
+F06 & Penjelasan faktor relevansi &
+Sistem harus mampu menampilkan informasi yang menjelaskan mengapa sebuah kegiatan kolaboratif direkomendasikan \\
+\hline
+
+\end{tabular}
+\end{table}
+
+
 \subsection{Kebutuhan Nonfungsional}
-\lipsum[7]
+
+Kebutuhan non-fungsional merupakan fungsi berisi kualitas yang harus dipenuhi oleh sistem agar dapat digunakan secara efektif, efisien, dan dapat dipercaya oleh pengguna. Adapun kebutuhan non-fungsional untuk merancang solusi yang dapat membantu mahasiswa menemukan kegiatan kolaboratif secara lebih akurat, cepat, dan sesuai dengan profil adalah sebagai berikut.
+
+\begin{table}[H]
+\centering
+\caption{Kebutuhan Non-Fungsional Sistem}
+\label{tbl:kebutuhan_nonfungsional}
+\begin{tabular}{|p{1cm}|p{3cm}|p{9cm}|}
+\hline
+\textbf{Kode} & \textbf{Kebutuhan non-fungsional} & \textbf{Deskripsi} \\
+\hline
+
+NF01 & \textit{Usability} &
+Sistem harus mudah digunakan, memiliki antarmuka yang intuitif, dan dapat dipahami oleh mahasiswa tanpa pelatihan khusus. \\
+\hline
+
+NF02 & \textit{Performance} &
+Sistem harus dapat menampilkan hasil pencocokan atau rekomendasi dalam waktu yang cepat dan responsif. \\
+\hline
+
+NF03 & \textit{Reliability} &
+Sistem harus memberikan hasil yang konsisten dan stabil untuk input yang sama. \\
+\hline
+
+NF04 & \textit{Privacy} &
+Sistem harus menjamin keamanan data pengguna melalui pengelolaan dan perlindungan data yang sesuai. \\
+\hline
+
+NF05 & \textit{Security} &
+Sistem harus menerapkan mekanisme keamanan yang mampu melindungi aplikasi dan data dari berbagai ancaman serta serangan siber. \\
+\hline
+
+\end{tabular}
+\end{table}
 
 \section{Analisis Pemilihan Solusi}
+
+Analisis pemilihan solusi dilakukan supaya solusi yang dipilih tidak hanya sesuai dengan karakteristik data dan pengguna, tetapi juga mempertimbangkan berbagai keterbatasan yang ada. Analisis pemilihan solusi menjadi langkah penting untuk meminimalkan risiko, mengoptimalkan pemanfaatan sumber daya, dan menjamin bahwa solusi akhir mampu memberikan nilai yang optimal.
+
 \subsection{Alternatif Solusi}
-\lipsum[8]
+
+Berbagai bentuk solusi dapat dipertimbangkan dalam mengatasi permasalahan mahasiswa yang kesulitan mencari kegiatan kolaboratif. Analisis pemilihan solusi ini tidak berfokus pada penentuan metode pencocokan, karena metode yang digunakan dalam penelitian ini \textit{affinity based matching} telah ditetapkan berdasarkan studi literatur yang menunjukkan bahwa metode tersebut paling sesuai untuk konteks modul \textit{people to project}. Oleh karena itu, analisis pemilihan solusi pada bagian ini difokuskan pada pemilihan platform implementasi yang paling tepat untuk menjalankan mekanisme rekomendasi tersebut. Pemilihan platform penting untuk memastikan bahwa sistem dapat diakses, digunakan, dan dikembangkan secara efektif sesuai dengan keterbatasan proyek Tugas Akhir serta kebutuhan mahasiswa sebagai pengguna utama. Berikut merupakan empat alternatif solusi yang dianalisis sebelum menentukan pendekatan yang paling tepat.
+
+\begin{enumerate}
+\item	\textit{Mobile Application} \\ Aplikasi mobile menjadi salah satu alternatif solusi untuk menghubungkan mahasiswa dengan berbagai peluang kegiatan kolaboratif melalui platform yang dapat diakses langsung dari perangkat smartphone. Aplikai mobile menjadi wadah bagi mahasiswa dalam memperoleh informasi, pembaruan, dan akses terhadap layanan \textit{people to project} kapan saja dan di mana saja.
+\item   \textit{Website Based Application} \\ Aplikasi berbasis web merupakan alternatif yang paling fleksibel dan mudah diakses untuk mendukung proses pencocokan \textit{people to project}. Platform ini dapat digunakan tanpa instalasi, dapat diakses melalui berbagai perangkat, dan lebih mudah dikembangkan secara bertahap. 
+\item   \textit{Social Media Channel} \\ Pemanfaatan kanal media sosial menjadi alternatif solusi yang bersifat praktis dan cepat diterapkan untuk membantu mahasiswa menemukan peluang kegiatan kolaboratif. Melalui grup, kanal, atau akun khusus, informasi mengenai kegiatan kolaboratif dapat disebarkan secara luas dan instan. Pendekatan ini relevan dengan kebiasaan mahasiswa yang aktif menggunakan platform komunikasi tersebut.
+\item   \textit{Digital Board} \\ \textit{Digital board} merupakan bentuk solusi yang menyediakan tampilan informasi kegiatan kolaboratif secara terpusat dan terorganisasi. Platform ini dapat berupa papan pengumuman digital, dashboard sederhana, atau laman informasi yang diperbarui secara berkala. 
+\end{enumerate}
+
 \subsection{Analisis Penentuan Solusi}
-\lipsum[9]
+Dalam menentukan solusi yang paling tepat untuk mengatasi masalah pencarian kegiatan kolaboratif mahasiswa, diperlukan metode yang mampu mengevaluasi beberapa alternatif secara sistematis dan objektif. \textit{weighted scoring model} (WSM) merupakan metode penilaian multi kriteria yang digunakan untuk membandingkan beberapa alternatif solusi berdasarkan sejumlah kriteria yang memiliki bobot atau tingkat kepentingan tertentu. Menurut \Textcite{kumartpMarketSegmentationAssessment2022}, WSM bekerja secara efektif untuk kasus pengambilan keputusan yang bersifat satu dimensi, karena setiap alternatif dievaluasi secara numerik terhadap masing-masing kriteria, lalu dihitung skor totalnya berdasarkan pembobotan. Metode ini menghasilkan proses penilaian yang transparan, mudah direplikasi, serta sesuai untuk pengambilan keputusan yang membutuhkan struktur evaluasi sederhana namun objektif. 
+
+\Textcite{kumartpMarketSegmentationAssessment2022} menjelaskan bahwa proses pemilihan solusi dilakukan melalui beberapa langkah. Tahapan pertama adalah menentukan alternatif solusi, yang disajikan pada Tabel \ref{tbl:alternatif_solusi}.
+
+\begin{table}[H]
+\centering
+\caption{Alternatif solusi}
+\label{tbl:alternatif_solusi}
+\begin{tabular}{|p{2cm}|p{6cm}|}
+\hline
+\textbf{Kode} & \textbf{Alternatif Solusi} \\
+\hline
+
+A01 & \textit{Mobile Application} \\
+\hline
+
+A02 & \textit{Website Based Application} \\
+\hline
+
+A03 & \textit{Social Media Channel} \\
+\hline
+
+A04 & \textit{Digital Board} \\
+\hline
+
+\end{tabular}
+\end{table}
+
+Setelah menentukan alternatif solusi, tahapan selanjutnya adalah menetapkan kriteria evaluasi yang disajikan pada Tabel \ref{tbl:kriteria}.
+
+\begin{table}[H]
+\centering
+\caption{Kriteria penilaian}
+\label{tbl:kriteria}
+\begin{tabular}{|p{2cm}|p{6cm}|}
+\hline
+\textbf{Kode} & \textbf{Alternatif Solusi} \\
+\hline
+
+K01 & Kemampuan menyelesaikan masalah pengguna \\
+\hline
+
+K02 & Fleksibilitas \\
+\hline
+
+K03 & Kemudahan penggunaan \\
+\hline
+
+K04 & Kelayakan implementasi \\
+\hline
+
+\end{tabular}
+\end{table}
+
+Setelah kriteria evaluasi ditetapkan, langkah berikutnya dalam proses \textit{weighted scoring method} adalah menetapkan bobot untuk setiap kriteria. Pada penelitian ini digunakan pendekatan \textit{equal weighting}, yaitu seluruh kriteria diberikan bobot yang sama. \Textcite{kumartpMarketSegmentationAssessment2022} menjelaskan bahwa seluruh kriteria dianggap memiliki tingkat kepentingan yang setara sehingga masing-masing diberi bobot identik. Selanjutnya adalah memberikan nilai pada setiap alternatif. Nilai diberikan menggunakan skala 1–5 sesuai tingkat pemenuhan kriteria yang disajikan pada tabel \ref{tbl:alternatif_kriteria}.
+
+\begin{table}[h]
+\centering
+\caption{Nilai Alternatif terhadap Setiap Kriteria}
+\label{tbl:alternatif_kriteria}
+\begin{tabular}{|p{2cm}|c|c|c|c|}
+\hline
+\textbf{Alternatif} & \textbf{K01} & \textbf{K02} & \textbf{K03} & \textbf{K04} \\
+\hline
+
+A01 & 4 & 2 & 3 & 2 \\
+\hline
+
+A02 & 5 & 4 & 4 & 3 \\
+\hline
+
+A03 & 2 & 3 & 4 & 5 \\
+\hline
+
+A04 & 1 & 3 & 4 & 4 \\
+\hline
+
+\end{tabular}
+\end{table}
+
+Tahapan berikutnya adalah melakukan perhitungan skor komposit untuk menentukan solusi terbaik. Karena setiap kriteria menggunakan skala penilaian yang sama dan bobot yang digunakan adalah \textit{equal weighting}, proses normalisasi tidak diperlukan. Nilai pada masing-masing kriteria kemudian dijumlahkan untuk memperoleh total skor setiap alternatif, sebelum dikalikan dengan bobot kriteria yang identik, yaitu 0.25 untuk masing-masing kriteria. 
+
+\begin{table}[h]
+\centering
+\caption{Hasil Perhitungan Skor Akhir dan Peringkat Alternatif}
+\label{tbl:hasil_perhitungan}
+\begin{tabular}{|p{2cm}|c|c|c|}
+\hline
+\textbf{Alternatif} & \textbf{Total Nilai} & \textbf{Skor Akhir} & \textbf{Peringkat} \\
+\hline
+
+A01 & 11 & 2.75 & 4 \\
+\hline
+
+\textbf{A02} & \textbf{16} & \textbf{4.00} & \textbf{1} \\
+\hline
+
+A03 & 14 & 3.50 & 2 \\
+\hline
+
+A04 & 12 & 3.00 & 3 \\
+\hline
+
+\end{tabular}
+\end{table}
+
+Berdasarkan tabel \ref{tbl:hasil_perhitungan} Solusi alternatif kedua atau \textit{website based application}  memperoleh skor tertinggi dengan nilai akhir 4.00. Website unggul dalam kemampuan menyelesaikan masalah pengguna, fleksibilitas pengembangan, serta kemudahan penggunaan, sementara kompleksitas implementasinya tetap berada pada tingkat yang realistis untuk direalisasikan dalam konteks tugas akhir. Dengan demikian, \textit{website based application} ditetapkan sebagai solusi terbaik untuk dikembangkan dalam penelitian ini.
+
+
+
+
+
+
+

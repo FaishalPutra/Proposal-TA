@@ -3,7 +3,155 @@
 % ==========================================
 \chapter{DESAIN KONSEP SOLUSI}
 \label{chap:desain-konsep-solusi}
-Ilustrasikan desain konsep solusi dalam bentuk model konseptual dan penjelasan secara ringkas, 
-beserta perbedaannya dengan sistem saat ini. Ilustrasi harus dapat dibandingkan (\textit{before} and \textit{after}). 
-Karena masih berupa proposal, bab ini hanya berisi gambar desain konsep solusi tersebut dan 
-penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergambar di awal Bab \ref{chap:analisis-masalah}).
+% Ilustrasikan desain konsep solusi dalam bentuk model konseptual dan penjelasan secara ringkas, 
+% beserta perbedaannya dengan sistem saat ini. Ilustrasi harus dapat dibandingkan (\textit{before} and \textit{after}). 
+% Karena masih berupa proposal, bab ini hanya berisi gambar desain konsep solusi tersebut dan 
+% penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergambar di awal Bab \ref{chap:analisis-masalah}).
+
+\section{Model Sistem Saat Ini}
+
+Pada pemodelan \textit{as-is} sistem hanya menggunakan \textit{behavioral model} dalam bentuk \textit{activity diagram} karena sistem yang berjalan saat ini tidak memiliki struktur arsitektur formal maupun interaksi sistematis yang dapat direpresentasikan melalui \textit{context model} atau \textit{interaction model}. \Textcite{sommervilleSoftwareEngineering2016}, pemodelan \textit{as-is} bertujuan untuk memahami praktik kerja saat ini, termasuk ketika proses masih bersifat manual atau informal. Oleh karena itu, \textit{behavioral model} merupakan yang paling tepat untuk menggambarkan alur kegiatan aktual dan mengidentifikasi \textit{pain points} proses manual, yang kemudian menjadi dasar untuk merancang model \textit{to-be} secara lebih terstruktur.
+
+\subsection{\textit{Behavioral Model As-Is}}
+
+\textit{behavioral model as-is}  disajikan dalam bentuk \textit{activity diagram} karena \textit{activity diagram} efektif digunakan untuk merepresentasikan alur kerja sistem yang masih berlangsung secara manual atau tidak terstruktur. \textit{activity diagram} ini akan menggambarkan bagaimana proses pencarian kegiatan kolaboratif oleh mahasiswa sebelum adanya sistem yang diusulkan.
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/activityasis.png}
+	\caption{Activity diagram as-is}
+	\label{gambar:activityasis}
+\end{figure}
+
+Berdasarkan \textit{activity diagram} pada Gambar \ref{gambar:activityasis}, dapat dilihat bahwa proses mahasiswa dalam mencari kegiatan kolaboratif saat ini masih berlangsung secara manual dan berulang. Mahasiswa harus memulai dengan mengidentifikasi kebutuhannya, kemudian mencari informasi kegiatan melalui berbagai platform informal seperti media sosial, grup percakapan, atau informasi dari teman. Proses pencarian ini bersifat tidak terstruktur dan sering kali harus diulang berkali-kali ketika informasi yang ditemukan tidak sesuai dengan kebutuhan. Selain itu, meskipun kegiatan tampak relevan, mahasiswa masih perlu melakukan pencarian tambahan terkait \textit{role} yang dibutuhkan oleh kegiatan tersebut. Jika \textit{role} tidak sesuai, mahasiswa kembali lagi ke proses pencarian awal, sehingga menciptakan loop yang berulang dan memakan waktu. Hanya apabila kegiatan dan \textit{role} sudah sesuai, mahasiswa dapat melanjutkan ke tahap pendaftaran atau bergabung dalam kegiatan tersebut. 
+
+\section{Model Sistem Usulan}
+
+Model sistem usulan menggambarkan bagaimana proses pencarian kegiatan kolaboratif yang dioptimalkan melalui sebuah platform terpusat yang mengintegrasikan seluruh kebutuhan mahasiswa dalam berkolaborasi. Berbeda dengan kondisi \textit{as-is} yang masih mengandalkan pencarian manual melalui berbagai platform informal dan memerlukan banyak pengulangan proses untuk menemukan kegiatan maupun \textit{role} yang sesuai, sistem \textit{to-be} dirancang untuk menyediakan alur yang otomatis, terstruktur, dan berbasis rekomendasi. Model usulan ini memanfaatkan data profil mahasiswa meliputi minat, keterampilan, dan preferensi role serta data kegiatan kolaboratif sebagai dasar untuk melakukan pencocokana. 
+
+Pada sistem usulan, penyajian model diawali dengan \textit{behavioral model} agar dapat langsung dibandingkan dengan model \textit{as-is} yang sebelumnya juga direpresentasikan dalam bentuk \textit{activity diagram}. Pendekatan ini dilakukan untuk menekankan perbedaan alur proses antara kondisi saat ini dan kondisi yang diusulkan, sehingga analisis peningkatannya dapat terlihat secara lebih jelas. Setelah alur proses \textit{to-be} dijelaskan, pembahasan kemudian dilanjutkan dengan \textit{context model} untuk menggambarkan batas sistem, serta \textit{interaction model} untuk menunjukkan hubungan antara pengguna dan \textit{functional requirement} dalam bentuk \textit{use case}. 
+
+\subsection{\textit{Behavioral Model To-Be}}
+
+\textit{Behavioral model to-be} disajikan dalam bentuk \textit{activity diagram} mengikuti \textit{behavioral model as-is} yang telah dipaparkan sebelumnya. 
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/activitytobe.png}
+	\caption{Activity diagram to-be}
+	\label{gambar:activitytobe}
+\end{figure}
+
+\textit{Activity diagram} pada Gambar \ref{gambar:activitytobe} menunjukkan bagaimana proses pencarian dan pemilihan kegiatan kolaboratif berubah secara signifikan pada sistem \textit{to-be} dibandingkan dengan \textit{as-is}. Pada sistem \textit{as-is}, mahasiswa harus melakukan pencarian informasi secara manual melalui berbagai platform, mengevaluasi kecocokan kegiatan sendiri, dan berulang kali kembali ke langkah sebelumnya apabila kegiatan atau \textit{role} tidak sesuai, sebuah proses yang penuh ketidakpastian dan menghasilkan banyak \textit{looping} yang menghabiskan waktu. Sebaliknya, pada model \textit{to-be}, seluruh proses ini disederhanakan dan didukung oleh otomatisasi.
+
+Proses dimulai ketika mahasiswa masuk ke platform dan memperbarui profil. Informasi ini kemudian digunakan oleh sistem untuk menampilkan rekomendasi kegiatan yang sudah melalui proses pencocokan otomatis. Tidak seperti \textit{as-is}, di mana mahasiswa harus menebak apakah kegiatan dan \textit{role} sesuai, pada \textit{to-be} sistem secara langsung menampilkan kegiatan dan \textit{role} yang paling cocok berdasarkan analisis profil pengguna. Hal ini menghilangkan proses \textit{trial and error} yang sebelumnya terjadi. Ketika mahasiswa membuka detail kegiatan, mahasiswa tidak perlu lagi mencari atau menganalisis \textit{role} secara manual, karena sistem telah merekomendasikannya secara terarah. Jika mahasiswa menyetujui \textit{role} tersebut, mahasiswa dapat langsung bergabung ke kegiatan melalui platform tanpa perlu mengulang proses pencarian. model \textit{to-be} tidak hanya mempercepat alur, tetapi juga menghilangkan ketidakpastian dan pengulangan yang terjadi pada \textit{as-is}. 
+
+\subsection{\textit{Context Model To-Be}}
+
+Pada tahap ini, dilakukan pemodelan konteks sistem untuk memberikan gambaran menyeluruh mengenai bagaimana solusi yang diusulkan tersusun dan bagaimana hubungan antar elemen utamanya. Model yang digunakan adalah \textit{context of system diagram}. 
+
+\vspace{20em}
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/context.png}
+	\caption{Context of system diagram}
+	\label{gambar:context}
+\end{figure}
+
+Dari gambar \ref{gambar:context} memperlihatkan bahwa platform kolaborasi mahasiswa terdiri dari beberapa subsistem yang saling melengkapi, yaitu \textit{people to project, people to people, team formation}, serta subsistem \textit{General Feature} yang menangani fungsi dasar seperti autentikasi, pengelolaan akun, dan penyimpanan data. Masing-masing subsistem memiliki peran, tanggung jawab, dan fungsi inti yang berkontribusi terhadap tujuan keseluruhan sistem, yaitu memfasilitasi proses pencarian kegiatan, pencarian partner, dan pembentukan tim secara terstruktur. Fitur rekomendasi yang dikembangkan dalam tugas akhir ini, yaitu proses rekomendasi antara mahasiswa dengan kegiatan kolaboratif (People to Project), merupakan salah satu subsistem dari keseluruhan arsitektur tersebut. 
+
+\subsection{\textit{Interaction Model To-Be}}
+
+Pada tahap \textit{interaction model}, sistem dimodelkan dari sudut pandang bagaimana pengguna berinteraksi dengan fungsi-fungsi yang disediakan. Model yang digunakan adalah \textit{use case diagram}, karena model ini berperan sebagai jembatan antara kebutuhan fungsional hasil \textit{requirement engineering} dengan rancangan desain sistem yang akan diimplementasikan. \textit{Use case} memungkinkan perancang untuk mengidentifikasi siapa saja aktor yang terlibat dan bagaimana mereka memicu fungsi tertentu dalam sistem, sehingga setiap kebutuhan fungsional dapat dipastikan memiliki representasi operasional yang jelas.
+
+Dalam konteks subsistem \textit{people to project}, kebutuhan fungsional yang telah dirumuskan pada Tabel \ref{tbl:kebutuhan_fungsional} diturunkan ke dalam serangkaian \textit{use case} yang menggambarkan alur interaksi mahasiswa dan pihak ketiga terhadap sistem rekomendasi kegiatan kolaboratif. Setiap \textit{use case} ini kemudian memetakan tindakan pengguna terhadap sistem, keluaran yang diharapkan, serta batasan yang terkait. Dengan demikian, \textit{interaction model} tidak hanya memastikan bahwa sistem memenuhi kebutuhan pengguna, tetapi juga membantu menyediakan dasar yang kuat untuk pemodelan perilaku dan implementasi prototipe pada tahap berikutnya.
+
+\begin{table}[h]
+\centering
+\caption{Pemetaan Kebutuhan Fungsional terhadap Use Case}
+\label{tbl:usecase_mapping}
+\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{4cm}|p{7cm}|}
+\hline
+\textbf{Kode FR} & \textbf{Kode Use Case} & \textbf{Nama Use Case} & \textbf{Penjelasan Singkat Use Case} \\
+\hline
+
+F01 & UC01 & Mengelola profil pengguna &
+Mahasiswa mengisi dan memperbarui data profil yang akan digunakan sistem dalam proses rekomendasi. \\
+\hline
+
+F02 & UC02 & Mengelola data kegiatan kolaboratif &
+Pengelola platform akan menambah dan memperbarui data kegiatan kolaboratif, termasuk deskripsi, persyaratan, role yang dibutuhkan, dan jadwal pelaksanaan. \\
+\hline
+
+F03 & UC03 & Melakukan pencocokan rekomendasi &
+Mahasiswa mengakses fitur rekomendasi; sistem kemudian menjalankan mekanisme pencocokan otomatis antara profil mahasiswa dan kegiatan kolaboratif. \\
+\hline
+
+F04 & UC05 & Melihat hasil rekomendasi kegiatan &
+Mahasiswa melihat daftar kegiatan kolaboratif yang direkomendasikan berdasarkan hasil proses pencocokan yang telah dilakukan sistem. \\
+\hline
+
+F05 & UC04 & Mengakses informasi kegiatan kolaboratif &
+Mahasiswa melihat informasi lengkap dan detail dari setiap kegiatan kolaboratif yang tersedia. \\
+\hline
+
+F06 & UC06 & Melihat penjelasan faktor relevansi &
+Mahasiswa mengakses informasi yang menjelaskan alasan mengapa suatu kegiatan direkomendasikan. \\
+\hline
+
+\end{tabular}
+\end{table}
+
+Tabel \ref{tbl:usecase_mapping} menyajikan pemetaan antara kebutuhan fungsional dengan use case yang dikembangkan pada subsistem \textit{people to project}. Dengan demikian, setiap fungsi yang dibutuhkan pengguna dapat diverifikasi keterhubungannya dengan proses operasional sistem yang akan dibangun. Use case yang telah dipetakan tersebut kemudian direpresentasikan ke dalam diagram use case pada gambar selanjutnya. Representasi visual ini memberikan gambaran menyeluruh mengenai hubungan antara aktor yang terlibat. Diagram use case juga membantu menegaskan ruang lingkup interaksi yang didukung oleh platform.
+
+\vspace{20em}
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=1\textwidth]{image/usecase.png}
+	\caption{use Case Diagram}
+	\label{gambar:usecase}
+\end{figure}
+
+Diagram \textit{use case} pada gambar \ref{gambar:usecase} menggambarkan interaksi antara aktor dengan fungsi-fungsi utama yang disediakan oleh platform kolaborasi mahasiswa. Aktor Mahasiswa berinteraksi dengan lima use case inti, yaitu mengelola profil pengguna, melakukan pencocokan rekomendasi, melihat hasil rekomendasi kegiatan, mengakses informasi kegiatan kolaboratif, dan melihat penjelasan faktor relevansi rekomendasi. Kelima use case tersebut mewakili alur penggunaan sistem dari sudut pandang mahasiswa, mulai dari pengisian profil hingga menerima rekomendasi kegiatan yang relevan berdasarkan hasil pencocokan. Sementara itu, pengelola platform berperan dalam use case mengelola data kegiatan kolaboratif, yaitu memasukkan dan memperbarui data kegiatan yang akan tersedia di dalam platform.
+
+keseluruhan rangkaian pemodelan ini memastikan bahwa solusi yang diusulkan memiliki landasan desain yang jelas, terstruktur, dan konsisten dengan kebutuhan yang telah diidentifikasi pada tahap analisis. Model-model ini juga menjadi dasar bagi implementasi prototipe pada bab selanjutnya serta memastikan bahwa sistem yang dirancang dapat mendukung proses pencarian kegiatan kolaboratif secara lebih efisien dibandingkan kondisi \textit{as-is}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
