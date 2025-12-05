@@ -1,21 +1,21 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'ProposalTA.blg'
-[126] biber-MSWIN64:342> INFO - === 
-[166] Biber.pm:421> INFO - Reading 'ProposalTA.bcf'
-[389] Biber.pm:1002> INFO - Found 19 citekeys in bib section 0
-[404] Biber.pm:4487> INFO - Processing section 0
-[416] Biber.pm:4678> INFO - Looking for bibtex file 'Proposal TA.bib' for section 0
-[458] bibtex.pm:1713> INFO - LaTeX decoding ...
-[499] bibtex.pm:1519> INFO - Found BibTeX data source 'Proposal TA.bib'
-[734] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
+[123] biber-MSWIN64:342> INFO - === 
+[167] Biber.pm:421> INFO - Reading 'ProposalTA.bcf'
+[418] Biber.pm:1002> INFO - Found 19 citekeys in bib section 0
+[435] Biber.pm:4487> INFO - Processing section 0
+[447] Biber.pm:4678> INFO - Looking for bibtex file 'Proposal TA.bib' for section 0
+[493] bibtex.pm:1713> INFO - LaTeX decoding ...
+[537] bibtex.pm:1519> INFO - Found BibTeX data source 'Proposal TA.bib'
 [734] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[734] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
 [734] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
 [734] Biber.pm:4307> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
 [734] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
-[758] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
-[777] bbl.pm:779> INFO - Output to ProposalTA.bbl
-[778] Biber.pm:132> WARN - ISBN '978-3-642-85100-1 978-3-642-85098-1' in entry 'roschelleConstructionSharedKnowledge1995' is invalid - run biber with '--validate_datamodel' for details.
-[778] Biber.pm:132> WARN - ISBN '978-1-292-09613-1 978-1-292-09614-8' in entry 'sommervilleSoftwareEngineering2016' is invalid - run biber with '--validate_datamodel' for details.
-[778] Biber.pm:132> WARN - ISBN '978-0-387-85819-7 978-0-387-85820-3' in entry 'ricciIntroductionRecommenderSystems2011' is invalid - run biber with '--validate_datamodel' for details.
-[778] Biber.pm:132> WARN - ISBN '978-3-642-45134-8 978-3-642-45135-5' in entry 'felfernigBasicApproachesRecommendation2014' is invalid - run biber with '--validate_datamodel' for details.
-[778] Biber.pm:134> INFO - WARNINGS: 4
+[768] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
+[788] bbl.pm:779> INFO - Output to ProposalTA.bbl
+[788] Biber.pm:132> WARN - ISBN '978-3-642-85100-1 978-3-642-85098-1' in entry 'roschelleConstructionSharedKnowledge1995' is invalid - run biber with '--validate_datamodel' for details.
+[788] Biber.pm:132> WARN - ISBN '978-1-292-09613-1 978-1-292-09614-8' in entry 'sommervilleSoftwareEngineering2016' is invalid - run biber with '--validate_datamodel' for details.
+[788] Biber.pm:132> WARN - ISBN '978-0-387-85819-7 978-0-387-85820-3' in entry 'ricciIntroductionRecommenderSystems2011' is invalid - run biber with '--validate_datamodel' for details.
+[788] Biber.pm:132> WARN - ISBN '978-3-642-45134-8 978-3-642-45135-5' in entry 'felfernigBasicApproachesRecommendation2014' is invalid - run biber with '--validate_datamodel' for details.
+[788] Biber.pm:134> INFO - WARNINGS: 4

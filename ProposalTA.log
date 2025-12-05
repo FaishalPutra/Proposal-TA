@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.22)  5 DEC 2025 17:16
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.22)  5 DEC 2025 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1435,17 +1435,17 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: FB390249EBEE5B5E05AE32F4DE602571;6486.
+(rerunfilecheck)             Checksum: A7D17F2944664CFE75F7D19C645F90C0;6486.
 Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 \openout1 = `ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31450 strings out of 403197
- 619335 string characters out of 5456143
+ 31454 strings out of 403197
+ 619542 string characters out of 5456143
  1993192 words of memory out of 5000000
- 59619 multiletter control sequences out of 15000+600000
- 632910 words of font info for 82 fonts, out of 8000000 for 9000
+ 59621 multiletter control sequences out of 15000+600000
+ 632926 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,10n,93p,1569b,6349s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

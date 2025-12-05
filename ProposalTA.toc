@@ -47,7 +47,7 @@
 \babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
-\contentsline {subsection}{\numberline {II.3.1}\textit {waterfall model}}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {II.3.1}\textit {Waterfall model}}{6}{subsection.2.3.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 

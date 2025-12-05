@@ -17,7 +17,7 @@ Rencana implementasi sistem dalam tugas akhir ini mengikuti model pengembangan S
 \item	Tahap Desain Sistem Rekomendasi \\ Tahap ini berfokus pada pendalaman kebutuhan pengguna dan pemodelan sistem secara menyeluruh. Aktivitas pada tahap ini meliputi pemetaan proses bisnis pembentukan tim, penyusunan use case hingga tingkat alur alternatif, pembuatan sequence diagram untuk menggambarkan interaksi sistem, serta identifikasi aktor dan alur pencarian tim. Tahap ini menghasilkan blueprint desain sistem yang menjadi dasar bagi seluruh proses pengembangan berikutnya.
 \item   Tahap Pengembangan Mekanisme Rekomendasi \textit{People to Project} \\ Tahap ini berfokus pada penyusunan mekanisme pencocokan kegiatan yang menjadi inti dari subsistem \textit{people to project}. Aktivitas pada tahap ini meliputi perumusan atribut profil mahasiswa dan atribut kegiatan yang relevan untuk proses pencocokan, serta penetapan bobot kriteria berdasarkan landasan teori terkait penilaian multi-kriteria. Setelah itu, dikembangkan metode perhitungan matching compatibility scoring yang mencakup proses normalisasi, pembobotan, hingga penentuan skor akhir kecocokan. Tahap ini juga mencakup penyusunan penjelasan relevansi (explainability) agar mahasiswa dapat memahami alasan suatu kegiatan direkomendasikan. Hasil dari tahap ini adalah mekanisme rekomendasi yang telah berfungsi secara mandiri dan siap diintegrasikan dengan modul interaksi yang telah dikembangkan pada tahap sebelumnya.
 \item   Tahap Pengembangan Interaksi \textit{people to project} \\ Tahap ini berfokus pada pengembangan bagian sistem yang berhubungan langsung dengan mahasiswa sebagai pengguna. Aktivitas yang dilakukan mencakup perancangan dan pembuatan antarmuka yang memungkinkan mahasiswa mengelola profil, menelusuri daftar kegiatan kolaboratif, serta mengakses informasi detail dari setiap kegiatan. Pada tahap ini disusun wireframe dan mockup untuk memastikan alur interaksi sesuai dengan kebutuhan pengguna yang telah dirumuskan sebelumnya. 
-\item   Tahap Integrasi Sistem dan Pengujian \textit{End-to-End} \\ Tahap ini menggabungkan keseluruhan komponen, menyelaraskan struktur database, dan memastikan alur pembentukan tim berjalan secara \textit{end-to-end}. Setelah integrasi, dilakukan pengujian lengkap mulai dari pembuatan profil hingga pengajuan bergabung ke tim berdasarkan rekomendasi. Hasil pengujian digunakan untuk iterasi dan penyempurnaan sehingga prototipe final siap untuk dievaluasi secara formal pada tahap penelitian selanjutnya.
+\item   Tahap Integrasi Sistem dan Pengujian \textit{End-to-End} \\ Tahap ini menggabungkan keseluruhan komponen, menyelaraskan struktur database, dan memastikan alur pembentukan tim berjalan secara \textit{end-to-end}. Setelah integrasi, dilakukan pengujian lengkap mulai dari pembuatan profil hingga pengajuan bergabung ke tim berdasarkan rekomendasi. Hasil pengujian digunakan untuk iterasi dan penyempurnaan sehingga prototipe final siap untuk dievaluasi secara formal pada tahap tugas akhir selanjutnya.
 \end{enumerate}
 
 \section{\textit{Timeline} Pengerjaan}
@@ -40,7 +40,7 @@ Selain validasi pada sisi interaksi, modul mekanisme rekomendasi kegiatan juga d
 
 \section{Analisis dan Mitigasi Risiko}
 
-Analisis risiko dilakukan untuk mengidentifikasi potensi hambatan yang dapat memengaruhi kelancaran proses pengembangan dan keberhasilan implementasi aplikasi kolaborasi mahasiswa. Mengingat keterbatasan waktu, sumber daya, serta dependensi antar tahapan pengembangan, tidak semua risiko memiliki tingkat urgensi yang sama. Oleh karena itu, penelitian ini memfokuskan analisis pada risiko-risiko yang memiliki dampak terbesar terhadap keberhasilan sistem rekomendasi dan proses pengujian desain disajikan pada tabel
+Analisis risiko dilakukan untuk mengidentifikasi potensi hambatan yang dapat memengaruhi kelancaran proses pengembangan dan keberhasilan implementasi aplikasi kolaborasi mahasiswa. Mengingat keterbatasan waktu, sumber daya, serta dependensi antar tahapan pengembangan, tidak semua risiko memiliki tingkat urgensi yang sama. Oleh karena itu, tuags akhir ini memfokuskan analisis pada risiko-risiko yang memiliki dampak terbesar terhadap keberhasilan sistem rekomendasi dan proses pengujian desain disajikan pada tabel
 
 \vspace{20em}
 
@@ -69,7 +69,7 @@ Melakukan iterasi terhadap bobot, memperbaiki definisi atribut, menguji algoritm
 \hline
 
 \textbf{4} &
-Integrasi modul rekomendasi dengan UI People to Project gagal atau tidak stabil &
+Integrasi modul rekomendasi dengan UI \textit{people to project} gagal atau tidak stabil &
 Melakukan integrasi bertahap sejak awal, melakukan pengujian per modul, memastikan struktur data konsisten, serta memperbaiki bug secepat mungkin begitu ditemukan. \\
 \hline
 
